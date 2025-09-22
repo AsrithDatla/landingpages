@@ -71,7 +71,7 @@ export default function HormonalImbalancePage() {
               </span></p>
             </div>
             
-            <a href="#book" className="btn-cta text-base sm:text-lg font-semibold" data-unique-id="15fa0158-e0e8-4f48-980d-50b491ce3ce7" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="c2f73911-fa3a-481c-aec5-4b9883e0add2" data-file-name="app/hormonal-imbalance-care/page.tsx">
+            <a href="https://wa.me/919000767060?text=Hi, I would like to know more about hormonal imbalance care and PCOS treatment" className="btn-cta text-base sm:text-lg font-semibold" data-unique-id="15fa0158-e0e8-4f48-980d-50b491ce3ce7" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="c2f73911-fa3a-481c-aec5-4b9883e0add2" data-file-name="app/hormonal-imbalance-care/page.tsx">
               Ready to take the first step?
             </span></a>
           </div>
@@ -227,13 +227,13 @@ export default function HormonalImbalancePage() {
             </span></h2>
             
             <div className="flex flex-col gap-3 sm:gap-4 justify-center items-stretch sm:items-center max-w-md sm:max-w-none mx-auto" data-unique-id="3e74ab1f-67ea-4f21-af99-a7953f0b263a" data-file-name="app/hormonal-imbalance-care/page.tsx">
-              <a href="#book" className="btn-cta w-full sm:w-auto" data-unique-id="49f7f77d-d7d6-4da9-808e-7dc79934c5ed" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="679d504d-2f6a-4b1b-af54-d392ecf5a19e" data-file-name="app/hormonal-imbalance-care/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to book a free discovery call for hormonal imbalance care" className="btn-cta w-full sm:w-auto" data-unique-id="49f7f77d-d7d6-4da9-808e-7dc79934c5ed" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="679d504d-2f6a-4b1b-af54-d392ecf5a19e" data-file-name="app/hormonal-imbalance-care/page.tsx">
                 Book a Free Discovery Call
               </span></a>
-              <a href="#book" className="btn-ghost w-full sm:w-auto" data-unique-id="1113e21f-711c-464c-9e18-625669a2701a" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="aee86368-a308-4a99-99f2-4f2051b65c59" data-file-name="app/hormonal-imbalance-care/page.tsx">
+              <a href="tel:9000767060" className="btn-ghost w-full sm:w-auto" data-unique-id="1113e21f-711c-464c-9e18-625669a2701a" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="aee86368-a308-4a99-99f2-4f2051b65c59" data-file-name="app/hormonal-imbalance-care/page.tsx">
                 Schedule a Full Hormonal Health Assessment
               </span></a>
-              <a href="#book" className="btn-ghost w-full sm:w-auto" data-unique-id="2adf648e-4256-41b8-a83b-e754e257cb24" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="4ca91469-8872-4e92-989a-cde439280612" data-file-name="app/hormonal-imbalance-care/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to download the PCOS wellness guide" className="btn-ghost w-full sm:w-auto" data-unique-id="2adf648e-4256-41b8-a83b-e754e257cb24" data-file-name="app/hormonal-imbalance-care/page.tsx"><span className="editable-text" data-unique-id="4ca91469-8872-4e92-989a-cde439280612" data-file-name="app/hormonal-imbalance-care/page.tsx">
                 Download Our PCOS Wellness Guide
               </span></a>
             </div>
@@ -241,6 +241,7 @@ export default function HormonalImbalancePage() {
         </div>
       </section>
 
+      <MobileStickyFooter />
       <Footer />
     </div>;
 }

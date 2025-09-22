@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { TestimonialSlider } from "@/components/testimonial-slider";
 import { Footer } from "@/components/footer";
+import { MobileStickyFooter } from "@/components/mobile-sticky-footer";
 export const metadata: Metadata = {
   title: "Move Freely. Live Fully. Without Chronic Pain. - ReLiv Healthy",
   description: "Musculoskeletal & Neurological Care - Chronic Pain Doesn't Have to Be Your New Normal"
@@ -19,7 +20,7 @@ const testimonials = [{
   name: "Sameer, 42"
 }];
 export default function MusculoskeletalPage() {
-  return <div className="min-h-screen bg-white" data-unique-id="69f04898-0f41-4079-b0f9-8834b1041106" data-file-name="app/musculoskeletal-neurological-care/page.tsx" data-dynamic-text="true">
+  return <div className="min-h-screen bg-white pb-20 md:pb-0" data-unique-id="69f04898-0f41-4079-b0f9-8834b1041106" data-file-name="app/musculoskeletal-neurological-care/page.tsx" data-dynamic-text="true">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center px-4 sm:px-8" data-unique-id="bb5ba967-270b-4467-ba18-076f098f8144" data-file-name="app/musculoskeletal-neurological-care/page.tsx" data-dynamic-text="true">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20" data-unique-id="ef425bfe-124e-4227-af57-73f0eb7ca423" data-file-name="app/musculoskeletal-neurological-care/page.tsx"></div>
@@ -70,7 +71,7 @@ export default function MusculoskeletalPage() {
               </span></p>
             </div>
             
-            <a href="#book" className="btn-cta text-lg font-semibold" data-unique-id="77ac7f32-35ba-4532-aa77-c44ac9056e15" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="8a07995b-2c05-4b63-ac56-798d80911ff5" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
+            <a href="https://wa.me/919000767060?text=Hi, I would like to know more about musculoskeletal and neurological care for chronic pain" className="btn-cta text-lg font-semibold" data-unique-id="77ac7f32-35ba-4532-aa77-c44ac9056e15" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="8a07995b-2c05-4b63-ac56-798d80911ff5" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
               Take Your First Step Toward Pain-Free Living
             </span></a>
           </div>
@@ -237,13 +238,13 @@ export default function MusculoskeletalPage() {
             </span></h2>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-unique-id="dbfdc034-4eca-45e3-8b0f-c5ce0aa035c9" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
-              <a href="#book" className="btn-cta" data-unique-id="80fc7038-b3f0-4629-a456-caee5f711d1a" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="9fc24aef-62f6-4a19-8230-be01ee755368" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to book a joint and nerve health assessment" className="btn-cta" data-unique-id="80fc7038-b3f0-4629-a456-caee5f711d1a" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="9fc24aef-62f6-4a19-8230-be01ee755368" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
                 Book a Joint & Nerve Health Assessment
               </span></a>
-              <a href="#book" className="btn-ghost" data-unique-id="98af188d-2284-4c9d-b3fb-2452c3a2f54c" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="521bd816-25d2-4d76-a3dd-31a7d2b1dfc6" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to download the arthritis and gout wellness guide" className="btn-ghost" data-unique-id="98af188d-2284-4c9d-b3fb-2452c3a2f54c" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="521bd816-25d2-4d76-a3dd-31a7d2b1dfc6" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
                 Download Our Arthritis & Gout Wellness Guide
               </span></a>
-              <a href="#book" className="btn-ghost" data-unique-id="6e989a9d-3b85-4227-bc77-8622953ee9b4" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="45568717-aa18-4f3e-9d38-b668abdc59dd" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
+              <a href="tel:9000767060" className="btn-ghost" data-unique-id="6e989a9d-3b85-4227-bc77-8622953ee9b4" data-file-name="app/musculoskeletal-neurological-care/page.tsx"><span className="editable-text" data-unique-id="45568717-aa18-4f3e-9d38-b668abdc59dd" data-file-name="app/musculoskeletal-neurological-care/page.tsx">
                 Talk to Our Pain Recovery Experts
               </span></a>
             </div>
@@ -251,6 +252,7 @@ export default function MusculoskeletalPage() {
         </div>
       </section>
 
+      <MobileStickyFooter />
       <Footer />
     </div>;
 }

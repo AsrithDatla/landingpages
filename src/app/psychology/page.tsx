@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { TestimonialSlider } from "@/components/testimonial-slider";
 import { Footer } from "@/components/footer";
+import { MobileStickyFooter } from "@/components/mobile-sticky-footer";
 export const metadata: Metadata = {
   title: "Mental Health Is Health. Let's Heal, Together. - ReLiv Healthy",
   description: "Psychological Wellness & Behavioral Support - You're Not Alone. And You Don't Have to Carry It Alone."
@@ -18,7 +19,7 @@ const testimonials = [{
   name: "Manoj, 42"
 }];
 export default function PsychologyPage() {
-  return <div className="min-h-screen bg-white" data-unique-id="f796f2e9-42db-49d8-8adb-f16baf683dba" data-file-name="app/psychology/page.tsx" data-dynamic-text="true">
+  return <div className="min-h-screen bg-white pb-20 md:pb-0" data-unique-id="f796f2e9-42db-49d8-8adb-f16baf683dba" data-file-name="app/psychology/page.tsx" data-dynamic-text="true">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center px-4 sm:px-8" data-unique-id="e95ca0b0-a153-49a3-a4eb-c419cc4f9129" data-file-name="app/psychology/page.tsx" data-dynamic-text="true">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20" data-unique-id="50e589ac-95dd-456d-ac64-cc8258d96fe8" data-file-name="app/psychology/page.tsx"></div>
@@ -65,7 +66,7 @@ export default function PsychologyPage() {
               At ReLiv Healthy, we bring together clinical understanding and compassionate listening to support emotional wellness, behavioral health, and long-term resilience for individuals and families.
             </span></p>
             
-            <a href="#book" className="btn-cta text-lg font-semibold" data-unique-id="04f1ee2b-5127-48e1-a72d-a60d2f9f3e1d" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="5f38c0fc-9b14-4064-a53c-da33144d88ed" data-file-name="app/psychology/page.tsx">
+            <a href="https://wa.me/919000767060?text=Hi, I would like to know more about psychological wellness and behavioral support services" className="btn-cta text-lg font-semibold" data-unique-id="04f1ee2b-5127-48e1-a72d-a60d2f9f3e1d" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="5f38c0fc-9b14-4064-a53c-da33144d88ed" data-file-name="app/psychology/page.tsx">
               Begin Your Journey to Mental & Emotional Balance
             </span></a>
           </div>
@@ -203,13 +204,13 @@ export default function PsychologyPage() {
             </span></h2>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-unique-id="b5e9f583-8874-4cfd-9dc1-5695b590ec10" data-file-name="app/psychology/page.tsx">
-              <a href="#book" className="btn-cta" data-unique-id="4a590ead-53af-485f-bdd3-fd4741ed84e2" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="a5573af5-1925-43ff-8d14-7b4b2a097965" data-file-name="app/psychology/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to book a mental wellness consultation" className="btn-cta" data-unique-id="4a590ead-53af-485f-bdd3-fd4741ed84e2" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="a5573af5-1925-43ff-8d14-7b4b2a097965" data-file-name="app/psychology/page.tsx">
                 Book a Mental Wellness Consultation
               </span></a>
-              <a href="#book" className="btn-ghost" data-unique-id="dc690044-d2e6-4560-9aeb-c66dd9d2a3c0" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="4f0f1edb-6e66-4a14-b712-fff07a22dbba" data-file-name="app/psychology/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to download the stress and behavior reset toolkit" className="btn-ghost" data-unique-id="dc690044-d2e6-4560-9aeb-c66dd9d2a3c0" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="4f0f1edb-6e66-4a14-b712-fff07a22dbba" data-file-name="app/psychology/page.tsx">
                 Download Our Stress & Behavior Reset Toolkit
               </span></a>
-              <a href="#book" className="btn-ghost" data-unique-id="dccfe664-ea38-414b-8b7a-dfb3d09b8f36" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="04301efc-1b79-4b1b-b015-9d15cef3df4a" data-file-name="app/psychology/page.tsx">
+              <a href="tel:9000767060" className="btn-ghost" data-unique-id="dccfe664-ea38-414b-8b7a-dfb3d09b8f36" data-file-name="app/psychology/page.tsx"><span className="editable-text" data-unique-id="04301efc-1b79-4b1b-b015-9d15cef3df4a" data-file-name="app/psychology/page.tsx">
                 Ask About CBT for Adults or Children
               </span></a>
             </div>
@@ -217,6 +218,7 @@ export default function PsychologyPage() {
         </div>
       </section>
 
+      <MobileStickyFooter />
       <Footer />
     </div>;
 }

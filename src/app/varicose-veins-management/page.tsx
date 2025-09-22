@@ -14,7 +14,7 @@ const treatmentItems = [
   "Spider Veins & Thread Veins",
   "Leg Heaviness & Chronic Fatigue",
   "Swelling and Skin Discoloration",
-  "Nighttime Cramps & Restless Legs",
+  "Night  time Cramps & Restless Legs",
   "Venous Insufficiency",
   "Post-pregnancy Vein Issues"
 ];
@@ -65,7 +65,7 @@ export default function VaricoseVeinsPage() {
     {/* Hero Section */}
     <section className="relative min-h-screen flex items-center px-3 sm:px-6 lg:px-8">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20"></div>
-      <div className="absolute inset-0 opacity-29" style={{
+      <div className="absolute inset-0" style={{
         backgroundImage: 'url(/varicose-veins.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -104,7 +104,7 @@ export default function VaricoseVeinsPage() {
             </p>
           </div>
 
-          <a href="#consultation" className="btn-cta text-base sm:text-lg font-semibold w-full sm:w-auto">
+          <a href="https://wa.me/919000767060?text=Hi, I would like to schedule a vascular assessment for varicose veins treatment" className="btn-cta text-base sm:text-lg font-semibold w-full sm:w-auto">
             Schedule Your Vascular Assessment
           </a>
         </div>
@@ -151,7 +151,7 @@ export default function VaricoseVeinsPage() {
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0"></div>
-                  <span>Nighttime cramps and restless legs</span>
+                  <span>Night time cramps and restless legs</span>
                 </li>
                 <li className="flex items-start gap-2 sm:gap-3">
                   <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 sm:mt-2 flex-shrink-0"></div>
@@ -381,14 +381,14 @@ export default function VaricoseVeinsPage() {
         </p>
 
         <div className="flex flex-col gap-3 sm:gap-4">
-          <a href="#consultation" className="btn-cta text-base sm:text-lg font-semibold w-full">
+          <a href="https://wa.me/919000767060?text=Hi, I would like to book a vein health assessment for varicose veins treatment" className="btn-cta text-base sm:text-lg font-semibold w-full">
             Book a Vein Health Assessment Today
           </a>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <a href="#consultation" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-sky-400 text-sky-400 hover:bg-sky-400 hover:text-white hover:-translate-y-1">
+            <a href="https://wa.me/919000767060?text=Hi, I would like to know more about your circulation-boosting therapies for varicose veins" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-sky-400 text-sky-400 hover:bg-sky-400 hover:text-white hover:-translate-y-1">
               Explore Our Circulation-Boosting Therapies
             </a>
-            <a href="#consultation" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white hover:-translate-y-1">
+            <a href="tel:9000767060" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white hover:-translate-y-1">
               Talk to a Specialist About Natural Management
             </a>
           </div>

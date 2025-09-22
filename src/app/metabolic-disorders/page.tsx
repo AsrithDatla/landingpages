@@ -1,6 +1,7 @@
 import { type Metadata } from "next";
 import { TestimonialSlider } from "@/components/testimonial-slider";
 import { Footer } from "@/components/footer";
+import { MobileStickyFooter } from "@/components/mobile-sticky-footer";
 export const metadata: Metadata = {
   title: "Because Sustainable Health Is More Than Just Numbers - ReLiv Healthy",
   description: "Metabolic Health & Weight Management - Tired of Trying Everything and Still Feeling Stuck?"
@@ -19,7 +20,7 @@ const testimonials = [{
   name: "Amala, 33"
 }];
 export default function MetabolicDisordersPage() {
-  return <div className="min-h-screen bg-white" data-unique-id="2c65e15a-98c4-4f21-9dfa-f17be262e9fe" data-file-name="app/metabolic-disorders/page.tsx" data-dynamic-text="true">
+  return <div className="min-h-screen bg-white pb-20 md:pb-0" data-unique-id="2c65e15a-98c4-4f21-9dfa-f17be262e9fe" data-file-name="app/metabolic-disorders/page.tsx" data-dynamic-text="true">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center px-4 sm:px-8" data-unique-id="95491220-c004-457c-b2db-223fb986a023" data-file-name="app/metabolic-disorders/page.tsx" data-dynamic-text="true">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20" data-unique-id="fdf5917e-ce17-4dcd-b8ae-07ac301c8a46" data-file-name="app/metabolic-disorders/page.tsx"></div>
@@ -73,7 +74,7 @@ export default function MetabolicDisordersPage() {
               </p>
             </div>
             
-            <a href="#book" className="btn-cta text-base sm:text-lg font-semibold" data-unique-id="5d09fbfb-7e31-4d76-8149-eb66b7a4b060" data-file-name="app/metabolic-disorders/page.tsx">
+            <a href="https://wa.me/919000767060?text=Hi, I would like to know more about metabolic disorders treatment and weight management" className="btn-cta text-base sm:text-lg font-semibold" data-unique-id="5d09fbfb-7e31-4d76-8149-eb66b7a4b060" data-file-name="app/metabolic-disorders/page.tsx">
               <span className="editable-text" data-unique-id="8e689a86-540a-45d7-a613-482ed04e4bc2" data-file-name="app/metabolic-disorders/page.tsx">Ready to Get Started?</span>
             </a>
           </div>
@@ -234,13 +235,13 @@ export default function MetabolicDisordersPage() {
             </h2>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-unique-id="74961727-0a1e-40b3-8884-348e88647be8" data-file-name="app/metabolic-disorders/page.tsx">
-              <a href="#book" className="btn-cta" data-unique-id="253c4840-bb97-4a1e-91a8-e344dfdf8829" data-file-name="app/metabolic-disorders/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to book a metabolic health consultation" className="btn-cta" data-unique-id="253c4840-bb97-4a1e-91a8-e344dfdf8829" data-file-name="app/metabolic-disorders/page.tsx">
                 <span className="editable-text" data-unique-id="a7f52aa9-a469-49a8-aedc-cdbe40a90a45" data-file-name="app/metabolic-disorders/page.tsx">Book a Metabolic Health Consultation</span>
               </a>
-              <a href="#book" className="btn-ghost" data-unique-id="a4fcadbd-abda-40b0-902c-296c88b21a38" data-file-name="app/metabolic-disorders/page.tsx">
+              <a href="https://wa.me/919000767060?text=Hi, I would like to take the metabolic risk quiz" className="btn-ghost" data-unique-id="a4fcadbd-abda-40b0-902c-296c88b21a38" data-file-name="app/metabolic-disorders/page.tsx">
                 <span className="editable-text" data-unique-id="0df5d229-9152-4cc1-bfc4-1c32a64b5cb7" data-file-name="app/metabolic-disorders/page.tsx">Take the 3-Min Metabolic Risk Quiz</span>
               </a>
-              <a href="#book" className="btn-ghost" data-unique-id="3bae277d-0223-41bd-b68d-d8f33ba6e891" data-file-name="app/metabolic-disorders/page.tsx">
+              <a href="tel:9000767060" className="btn-ghost" data-unique-id="3bae277d-0223-41bd-b68d-d8f33ba6e891" data-file-name="app/metabolic-disorders/page.tsx">
                 <span className="editable-text" data-unique-id="06c586fc-1bde-4449-8663-eda8e7a20c6e" data-file-name="app/metabolic-disorders/page.tsx">Download Our Smart Weight Loss Guide</span>
               </a>
             </div>
@@ -248,6 +249,7 @@ export default function MetabolicDisordersPage() {
         </div>
       </section>
 
+      <MobileStickyFooter />
       <Footer />
     </div>;
 }
