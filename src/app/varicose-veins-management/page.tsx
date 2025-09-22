@@ -65,7 +65,7 @@ export default function VaricoseVeinsPage() {
     {/* Hero Section */}
     <section className="relative min-h-screen flex items-center px-3 sm:px-6 lg:px-8">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20"></div>
-      <div className="absolute inset-0 opacity-10" style={{
+      <div className="absolute inset-0 opacity-29" style={{
         backgroundImage: 'url(/varicose-veins.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',

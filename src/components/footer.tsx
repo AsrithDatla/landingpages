@@ -15,29 +15,16 @@ export function Footer() {
           </div>
           {/* Contact Locations */}
           <div className="lg:col-span-2 space-y-6 sm:space-y-8">
-            <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4" data-unique-id="a4daa543-b9ce-41b0-b315-9094e6b1e298" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="5f466ad8-ce17-48ed-9b7d-57b9bbede572" data-file-name="components/footer.tsx">Our Locations</span></h3>
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-4" data-unique-id="a4daa543-b9ce-41b0-b315-9094e6b1e298" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="5f466ad8-ce17-48ed-9b7d-57b9bbede572" data-file-name="components/footer.tsx">Our Location</span></h3>
             
             {/* HUB: Banjara Hills */}
             <div className="space-y-3" data-unique-id="c918c600-f639-4780-b7c5-1767be4a7278" data-file-name="components/footer.tsx">
               <div className="flex items-start gap-3" data-unique-id="72f0b620-1a4a-42ea-bee8-3a8680b40b34" data-file-name="components/footer.tsx">
                 <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div data-unique-id="f4a06683-112b-4d86-b391-d3f53655072a" data-file-name="components/footer.tsx">
-                  <h4 className="font-semibold text-gray-900 mb-1" data-unique-id="a816c14f-9b8e-4729-ab5d-3dbb8fe0e568" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="21068a6c-1fcf-4d4b-a120-7db2b854dee7" data-file-name="components/footer.tsx">HUB: Banjara Hills</span></h4>
+                  <h4 className="font-semibold text-gray-900 mb-1" data-unique-id="a816c14f-9b8e-4729-ab5d-3dbb8fe0e568" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="21068a6c-1fcf-4d4b-a120-7db2b854dee7" data-file-name="components/footer.tsx">Banjara Hills</span></h4>
                   <p className="text-sm text-gray-600 leading-relaxed" data-unique-id="b52e0818-df05-4dd7-87e6-878d77d4cc6b" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="2650cd5a-9e44-4884-9386-6d911dfbc2f6" data-file-name="components/footer.tsx">
                     Plot No 3, Huda Heights, Near Lotus Pond, Road No 12, MLA Colony, Filmnagar, Jubilee Hills, Hyderabad - 500 096
-                  </span></p>
-                </div>
-              </div>
-            </div>
-
-            {/* SATELLITE: Kokapet */}
-            <div className="space-y-3" data-unique-id="a8df23ea-2521-4c2c-b471-910d035aa592" data-file-name="components/footer.tsx">
-              <div className="flex items-start gap-3" data-unique-id="ed97184d-1284-4572-b78e-9e235e63e4d7" data-file-name="components/footer.tsx">
-                <MapPin className="h-5 w-5 text-secondary mt-1 flex-shrink-0" />
-                <div data-unique-id="b5f9849f-29cd-487a-8d38-1d0a35f047ff" data-file-name="components/footer.tsx">
-                  <h4 className="font-semibold text-gray-900 mb-1" data-unique-id="ed277b03-14f6-4044-a25e-fec83c73548a" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="974aac55-1ebd-4e2e-a4f0-0237be3472f1" data-file-name="components/footer.tsx">SATELLITE: Kokapet</span></h4>
-                  <p className="text-sm text-gray-600 leading-relaxed" data-unique-id="23ad99bb-bdcd-4546-8ea6-5f02b655f946" data-file-name="components/footer.tsx"><span className="editable-text" data-unique-id="8201fe1a-77b3-4da0-b0ef-f8b50a748aef" data-file-name="components/footer.tsx">
-                    Unit No-402, 4th Floor, Block 2, Radha Spaces, Kokapet Terminal, Kokapet, Hyderabad-500075
                   </span></p>
                 </div>
               </div>

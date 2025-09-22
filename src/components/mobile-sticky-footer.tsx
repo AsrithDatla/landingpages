@@ -26,7 +26,7 @@ export function MobileStickyFooter({
           className="flex-1 bg-green-600 text-white text-center py-2.5 sm:py-3 px-2 sm:px-4 rounded-lg font-semibold text-xs sm:text-sm hover:bg-green-700 transition-colors flex items-center justify-center gap-1 sm:gap-2"
         >
           <Calendar className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
-          <span className="whitespace-nowrap">Book Consult</span>
+          <span className="whitespace-nowrap">Book Consultation</span>
         </a>
       </div>
     </div>
