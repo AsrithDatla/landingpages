@@ -65,7 +65,7 @@ export default function VaricoseVeinsPage() {
     {/* Hero Section */}
     <section className="relative min-h-screen flex items-center px-3 sm:px-6 lg:px-8">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20"></div>
-      <div className="absolute inset-0" style={{
+      <div className="absolute inset-0 opacity-50" style={{
         backgroundImage: 'url(/varicose-veins.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -290,7 +290,7 @@ export default function VaricoseVeinsPage() {
             </div>
             <div className="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 text-center shadow-md">
               <h4 className="text-sm sm:text-base lg:text-lg font-semibold mb-2 sm:mb-3 text-gray-900">Compression Therapy</h4>
-              <p className="text-xs sm:text-sm lg:text-base text-gray-600">Medical-grade compression recommendations for optimal vein support</p>
+              <p className="text-xs sm:text-sm lg:text-base text-gray-600">Medical-grade compression recommendations for optimal vein support, circulation enhancement and reduction of inflammation</p>
             </div>
           </div>
         </div>
@@ -388,7 +388,7 @@ export default function VaricoseVeinsPage() {
             <a href="https://wa.me/919000767060?text=Hi, I would like to know more about your circulation-boosting therapies for varicose veins" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-sky-400 text-sky-400 hover:bg-sky-400 hover:text-white hover:-translate-y-1">
               Explore Our Circulation-Boosting Therapies
             </a>
-            <a href="tel:9000767060" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white hover:-translate-y-1">
+            <a href="tel:9000767060" className="inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 sm:px-5 sm:py-3 border-2 transition-all duration-200 ease-out min-h-[44px] text-sm sm:text-base font-semibold w-full border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white hover:-translatey-1">
               Talk to a Specialist About Natural Management
             </a>
           </div>
