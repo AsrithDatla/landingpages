@@ -6,10 +6,12 @@
       "use": "@vercel/next"
     }
   ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
+  "routes": [
+    { "src": "/hormonal-imbalance-care", "dest": "/hormonal-imbalance-care" },
+    { "src": "/metabolic-disorders", "dest": "/metabolic-disorders" },
+    { "src": "/musculoskeletal-neurological-care", "dest": "/musculoskeletal-neurological-care" },
+    { "src": "/psychology", "dest": "/psychology" },
+    { "src": "/varicose-veins-management", "dest": "/varicose-veins-management" },
+    { "src": "/.*", "status": 404 }
   ]
 }
