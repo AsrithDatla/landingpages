@@ -4,30 +4,44 @@ import { type Metadata } from "next";
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1
+  maximumScale: 1,
+  themeColor: '#ffffff'
 };
 export const metadata: Metadata = {
-  icons: {
-    icon: [{
-      url: "/favicon-16x16.png",
-      sizes: "16x16",
-      type: "image/png"
-    }, {
-      url: "/favicon-32x32.png",
-      sizes: "32x32",
-      type: "image/png"
-    }, {
-      url: "/favicon.ico",
-      sizes: "48x48",
-      type: "image/x-icon"
-    }],
-    apple: [{
-      url: "/apple-touch-icon.png",
-      sizes: "180x180",
-      type: "image/png"
-    }]
+  title: {
+    default: 'ReLiv Healthy',
+    template: '%s | ReLiv Healthy',
   },
-  manifest: "/site.webmanifest"
+  description: 'Holistic healthcare solutions for your well-being',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      {
+        url: '/apple-touch-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://relivhealthy.com/',
+    siteName: 'ReLiv Healthy',
+    title: 'ReLiv Healthy - Holistic Healthcare Solutions',
+    description: 'Your trusted partner for comprehensive healthcare and wellness services',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ReLiv Healthy',
+    description: 'Holistic healthcare solutions for your well-being',
+    creator: '@relivhealthy',
+  },
 };
 export default function RootLayout({
   children

@@ -2,6 +2,7 @@ import { type Metadata } from "next";
 import { TestimonialSlider } from "@/components/testimonial-slider";
 import { Footer } from "@/components/footer";
 import { MobileStickyFooter } from "@/components/mobile-sticky-footer";
+import Logo from "@/components/Logo";
 export const metadata: Metadata = {
   title: "Empowering You to Reclaim Balance, Naturally - ReLiv Healthy",
   description: "Hormonal Imbalance Care - Struggling with PCOD, PCOS, or Unexplained Infertility?"
@@ -32,11 +33,7 @@ export default function HormonalImbalancePage() {
       }}></div>
         
         {/* Logo */}
-        <div className="absolute top-3 left-3 sm:top-6 sm:left-6 lg:top-8 lg:left-8 z-10">
-          <a href="https://relivhealthy.com/" className="block transition-opacity duration-200 hover:opacity-80">
-            <img src="https://pre-built-images.s3.amazonaws.com/webapp-uploads/4a7c818821764b5fc4ecca88e27e5a38.gif" alt="ReLiv Healthy Logo" className="h-16 w-auto sm:h-20 md:h-24 lg:h-28 xl:h-32" />
-          </a>
-        </div>
+        <Logo />
 
         <div className="relative z-10 w-full max-w-6xl mx-auto mt-20 sm:mt-0">
           <div className="max-w-4xl">

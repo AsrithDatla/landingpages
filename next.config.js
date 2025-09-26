@@ -1,20 +1,36 @@
 // @ts-ignore
 /** @type {import("next").NextConfig} */
 const config = {
+  // Ensure trailing slashes for consistency
   trailingSlash: true,
+  
+  // Disable React strict mode to prevent double rendering in development
+  reactStrictMode: false,
+  
+  // Base path configuration - set this to match your deployment path
+  // For production, this will be empty since we're deploying to the root
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  
+  // Asset prefix for CDN support if needed
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  
+  // Image optimization settings
   images: {
-    unoptimized: true,
+    unoptimized: true, // Disable default Image Optimization API
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*',
-        pathname: '**',
+        hostname: '**', // Allow all external images
       },
     ],
   },
+  
+  // Disable ESLint during builds for now
   eslint: {
     ignoreDuringBuilds: true,
   },
+  
+  // Disable TypeScript type checking during builds
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -43,9 +59,32 @@ const config = {
   },
   async rewrites() {
     return [
+      // Preserve source maps
       {
         source: '/_next/:path*.map',
         destination: '/_next/:path*.map',
+      },
+      // Add any specific rewrites you need for your routes
+      // Example:
+      // {
+      //   source: '/blog/:slug*',
+      //   destination: '/posts/:slug*',
+      // },
+    ];
+  },
+  
+  // Ensure public files are properly cached
+  async headers() {
+    return [
+      {
+        source: '/:all*(svg|jpg|png|webp|gif|ico|woff|woff2|ttf|eot)',
+        locale: false,
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
       },
     ];
   },

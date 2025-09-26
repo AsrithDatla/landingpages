@@ -23,17 +23,24 @@ export default function PsychologyPage() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center px-3 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/40 to-purple-50/20"></div>
-        <div className="absolute inset-0 opacity-75" style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1920&h=1080&fit=crop)',
+                
+        <div className="absolute inset-0" style={{
+        backgroundImage: 'url(/mental-health-care-sketch-diagram.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        opacity: 0.1, // Reduced opacity to make it subtle
+        mixBlendMode: 'multiply'
       }}></div>
         
-        {/* Logo */}
-        <div className="absolute top-3 left-3 sm:top-6 sm:left-6 lg:top-8 lg:left-8 z-10">
-          <a href="https://relivhealthy.com/" className="block transition-opacity duration-200 hover:opacity-80">
-            <img src="https://pre-built-images.s3.amazonaws.com/webapp-uploads/4a7c818821764b5fc4ecca88e27e5a38.gif" alt="ReLiv Healthy Logo" className="h-16 w-auto sm:h-20 md:h-24 lg:h-28 xl:h-32" />
+        {/* Logo - Fixed positioning and z-index */}
+        <div className="fixed top-4 left-4 sm:top-6 sm:left-6 z-50">
+          <a href="https://relivhealthy.com/" className="block transition-opacity duration-200 hover:opacity-80 bg-white/90 p-2 rounded-lg shadow-md">
+            <img 
+              src="https://pre-built-images.s3.amazonaws.com/webapp-uploads/4a7c818821764b5fc4ecca88e27e5a38.gif" 
+              alt="ReLiv Healthy Logo" 
+              className="h-12 w-auto sm:h-16 md:h-20 lg:h-24" 
+            />
           </a>
         </div>
 
@@ -144,9 +151,9 @@ export default function PsychologyPage() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=500&h=400&fit=crop" 
-                  alt="Therapy session in a comfortable setting" 
-                  className="rounded-xl sm:rounded-2xl shadow-lg w-full h-auto"
+                  src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&h=400&fit=crop&crop=faces&facepad=2.5&q=80" 
+                  alt="Therapy session in a comfortable setting with an Indian therapist" 
+                  className="rounded-xl sm:rounded-2xl shadow-lg w-full h-auto object-cover"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-white p-3 sm:p-4 rounded-lg shadow-md">
                   <div className="flex items-center">
